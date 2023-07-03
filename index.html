@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lynx Emulator v1.0.0 (Waiting)</title>
+        <link rel="stylesheet" href="./lynx-main.css" />
+    </head>
+    <body>
+        <div class="app">
+            <div class="monitor">
+                <canvas width="400" height="300" class="lcd"></canvas>
+            </div>
+            <div class="keypad">
+                <div class="keypad-row">
+                    <button class="keypad-button button-a"></button>
+                    <button class="keypad-button button-b"></button>
+                </div>
+                <div class="keypad-row">
+                    <button class="keypad-button button-c"></button>
+                    <button class="keypad-button button-d"></button>
+                </div>
+                <div class="keypad-row">
+                    <button class="keypad-button button-e"></button>
+                    <button class="keypad-button button-f"></button>
+                    <button class="keypad-button button-g"></button>
+                    <button class="keypad-button button-h"></button>
+                </div>
+                <div class="keypad-speaker"></div>
+            </div>
+        </div>
+        <script src="./ipc.js"></script>
+        <script src="./lcd-display.js"></script>
+        <script src="./console-tails.js"></script>
+    </body>
+</html>
